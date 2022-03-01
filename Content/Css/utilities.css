@@ -1,0 +1,36 @@
+:root {
+  --color-background: rgb(122, 218, 218);
+  --color-primery: rgb(19, 78, 88);
+  --color-secondary: rgb(172, 120, 86);
+  --color-text: rgb(172, 120, 86);
+  --shadow: 0rem 0rem 0.8rem 0.2rem var(--color-secondary);
+}
+
+.box-primery {
+  color: var(--color-text);
+  background: var(--color-primery);
+}
+
+.box-light {
+  color: var(--color-primery);
+  background: var(--color-text);
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  background: #f7c08a;
+  font-size: 18px;
+  padding: 8px 20px;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

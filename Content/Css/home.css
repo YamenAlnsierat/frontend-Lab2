@@ -1,0 +1,69 @@
+#landing {
+  background: url("/Content/img/landing.jpg") center center/cover no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 85%;
+  color: var(--color-primery);
+  padding: 2rem;
+}
+
+.landing-content h1,
+.landing-content p,
+.landing-content a {
+  z-index: 1;
+}
+
+.landing-content h1 {
+  font-size: 1.5rem;
+  color: var(--color-background);
+}
+
+.landing-content p {
+  color: var(--color-secondary);
+  font-size: 1.1rem;
+  font-weight: bold;
+  max-width: 400px;
+}
+
+.landing-content a {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+  color: var(--color-background);
+}
+
+.landing-content a:hover {
+  transform: scale(1.1);
+}
+
+#landing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
